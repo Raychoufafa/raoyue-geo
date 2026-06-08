@@ -258,12 +258,12 @@ body {
 #ctaSuccess h3 { color: #fff; }
 
 /* ===== QR Code Section ===== */
-.qrcode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; max-width: 640px; margin-left: auto; margin-right: auto; }
+.qrcode-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; max-width: 720px; margin-left: auto; margin-right: auto; }
 .qrcode-card { background: var(--bg-light); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 32px 24px; text-align: center; transition: var(--transition); }
 .qrcode-card:hover { border-color: var(--primary); box-shadow: var(--shadow-lg); }
 .qrcode-img-wrap { width: 180px; height: 180px; margin: 0 auto 20px; background: #fff; border-radius: 12px; padding: 10px; display: flex; align-items: center; justify-content: center; }
 .qrcode-img { width: 100%; height: 100%; object-fit: contain; }
-.qrcode-card h3 { font-size: 1.05rem; margin-bottom: 8px; }
+.qrcode-card h3 { font-size: 1rem; margin-bottom: 8px; white-space: nowrap; }
 .qrcode-desc { font-size: .85rem; color: var(--text-light); line-height: 1.7; }
 
 /* ===== Footer ===== */
